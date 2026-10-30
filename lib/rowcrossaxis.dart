@@ -7,7 +7,7 @@ class RowCrossAxis extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Yap'),
+        title: const Text('Reyes'),
         centerTitle: true,
         backgroundColor: Colors.teal,
       ),

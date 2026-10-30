@@ -7,29 +7,21 @@ class RowMainAxis extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Yap'),
+        title: const Text(
+          'TASK 1 LASTNAME',
+          style: TextStyle(fontSize: 12, color: Colors.black),
+        ),
         centerTitle: true,
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.white,
+        elevation: 0,
       ),
       body: Center(
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Container(
-              width: 90,
-              height: 90,
-              color: Colors.red,
-            ),
-            Container(
-              width: 80,
-              height: 80,
-              color: Colors.yellow,
-            ),
-            Container(
-              width: 70,
-              height: 70,
-              color: Colors.blue,
-            ),
+            Container(width: 90, height: 90, color: Colors.red),
+            Container(width: 80, height: 80, color: Colors.yellow),
+            Container(width: 70, height: 70, color: Colors.blue),
           ],
         ),
       ),
